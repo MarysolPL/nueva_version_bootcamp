@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ws-type-product
+  cloud:
+    config:
+      uri: http://localhost:8888

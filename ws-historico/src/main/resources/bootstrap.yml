@@ -1,0 +1,9 @@
+
+spring:
+  application:
+    name: ws-historico
+  cloud:
+    config:
+      uri: http://localhost:8888
+#      enabled: true
+#      uri: http://localhost:8081      

@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+#  security:
+#    user:
+#      name: nttdata
+#      password: nttd4t4
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/mauricioccasani/proyecto-servicios.git
+#          username: 
+#          password: 
+          search-paths: admin-config-data
+          default-label: "master"

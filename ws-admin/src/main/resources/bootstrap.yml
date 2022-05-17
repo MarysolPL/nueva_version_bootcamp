@@ -1,0 +1,7 @@
+#server.port=8085
+spring:
+  application:
+    name: ws-admin
+  cloud:
+    config:
+      uri: http://localhost:8888
